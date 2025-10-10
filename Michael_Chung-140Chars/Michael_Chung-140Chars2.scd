@@ -1,0 +1,1 @@
+play{CombN.ar(PinkNoise.ar(LFPulse.kr(2,0,LFPulse.kr(0.5,0.25,0.1,0.1))),1,0.1,-1,0.2)+LFCub.ar(SinOsc.ar(LFPulse.kr(2,1/4)*100,0,25,50))}

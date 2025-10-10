@@ -1,0 +1,1 @@
+~b=Buffer.alloc(s,88200);play{RecordBuf.ar(SoundIn.ar([0]),~b,0,1,0,1,0,1,2)};play{BufRd.ar(1,~b,SinOsc.ar(0.2 * LFNoise0.ar(4))*88200)};
