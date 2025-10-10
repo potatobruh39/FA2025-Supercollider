@@ -2,7 +2,7 @@
 
 I wanted to approach this assignment using both buffers and native synthesis UGens.
 
-# Buffer-based approach
+### Buffer-based approach
 
 For the code using a buffer, I wanted to make some kind of pseudo granulator based on recorded mic input.
 
@@ -12,7 +12,7 @@ In order to create interesting playback effects, I used the Rand UGen to randomi
 
 I then looked into other playback options and found the BufRd UGen which could handle dynamic buffer indeces. In order to scrub the buffer like a granulator would, I used a SinOsc modulated by noise with an amplitude of 88200 (the size of the buffer) to control the index of the BufRd. This ended up being quite a straightforward setup since BufRd is meant for this kind of effect, but the result was quite fun nonetheless.
 
-# Synthesis approach
+### Synthesis approach
 
 I also wanted to try creating something like the example 140 character systems, since they require a very different approach from a buffer-based effect. I first started with 'percussion' elements, derived from Bruno Ruviaro's micromoog code in the SuperCollider Tweets Wiki (https://ccrma.stanford.edu/wiki/SuperCollider_Tweets). I used a PinkNoise UGen and gated it with an LFPulse. This pulse was modulated with another LFPulse to create a short-short-short-long pattern, mimicking a hi-hat and snare pattern. I also used a CombN as a delay line.
 
