@@ -1,7 +1,11 @@
-### Sources:
+### Code Source
 
-- [Supercollider documentation](https://doc.sccode.org/)
+pulu/miranda, personal communication, Oct 29, 2025
 
-- Email conversation with pulu
+### Analysis Sources:
 
-- [ChatGPT](https://chatgpt.com/)
+- [Supercollider documentation](https://doc.sccode.org/); for Ugens
+
+- Private correspondance (email) with pulu; detailed important elements of SC2 and personal workflow preferences
+
+- [ChatGPT](https://chatgpt.com/); mainly for understanding custom classes/methods regarding event handling and spawning
